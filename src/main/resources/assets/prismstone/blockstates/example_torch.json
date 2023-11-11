@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "prismstone:block/prismstone_torch_off"
+    },
+    "lit=true": {
+      "model": "prismstone:block/prismstone_torch"
+    }
+  }
+}

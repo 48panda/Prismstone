@@ -1,0 +1,12 @@
+{
+  "package": "com._48panda.prismstone.mixin",
+  "refmap": "mixins.prismstone.refmap.json",
+  "mixins": [
+    "DiodeBlockMixin",
+    "RedstoneDustMixin"
+  ],
+  "client": [
+    "HumanoidArmorLayerMixin"
+  ],
+  "server": []
+}

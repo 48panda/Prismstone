@@ -1,0 +1,44 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "prismstone:block/crossing"
+      }
+    },
+    {
+      "when": {
+        "north_goes_up": "true"
+      },
+      "apply": {
+        "model": "prismstone:block/redstone_dust_up"
+      }
+    },
+    {
+      "when": {
+        "east_goes_up": "true"
+      },
+      "apply": {
+        "model": "minecraft:block/redstone_dust_up",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "south_goes_up": "true"
+      },
+      "apply": {
+        "model": "prismstone:block/redstone_dust_up",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "west_goes_up": "true"
+      },
+      "apply": {
+        "model": "minecraft:block/redstone_dust_up",
+        "y": 270
+      }
+    }
+  ]
+}

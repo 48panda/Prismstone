@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "prismstone:item/torch_cutout",
+    "layer1": "prismstone:block/prismstone_torch"
+  }
+}

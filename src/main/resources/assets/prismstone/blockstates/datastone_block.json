@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "prismstone:block/prismstone_block"
+    }
+  }
+}
